@@ -30,10 +30,10 @@ namespace Test
             var shortcuts = new List<Tuple<string, string, bool, string>>
             {
                 Tuple.Create(Path.Combine(basePath, "file.lnk"), Path.Combine(basePath, @"Program Files\Corporation Name\App.exe"), false, ""),
-                Tuple.Create(Path.Combine(basePath, "file with shortcut.lnk"), Path.Combine(basePath, @"Program Files\Utility.exe"), false, "ctrl+alt+a"),
+                Tuple.Create(Path.Combine(basePath, "file with hotkey.lnk"), Path.Combine(basePath, @"Program Files\Utility.exe"), false, "ctrl+alt+a"),
                 Tuple.Create(Path.Combine(basePath, "directory.lnk"), Path.Combine(basePath, @"娱乐\电影"), true, ""),
-                Tuple.Create(Path.Combine(basePath, "directory with shortcut.lnk"), Path.Combine(basePath, @"娱乐\音乐"), true, "ctrl+alt+b"),
-                Tuple.Create(Path.Combine(basePath, "directory with shortcut 1.lnk"), Path.Combine(basePath, @"娱乐\游戏"), true, "ctrl+shift+c")
+                Tuple.Create(Path.Combine(basePath, "directory with hotkey.lnk"), Path.Combine(basePath, @"娱乐\音乐"), true, "ctrl+alt+b"),
+                Tuple.Create(Path.Combine(basePath, "directory with hotkey 1.lnk"), Path.Combine(basePath, @"娱乐\游戏"), true, "ctrl+shift+c")
             };
 
             if (Directory.Exists(basePath))
